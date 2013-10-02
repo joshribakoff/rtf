@@ -48,7 +48,7 @@ $converter->convert('\\ulfoo\\ulnone');
 Creates this:
 ```
 <u>foo</u>
-``
+```
 
 **Modifying an existing RTF document to add some text (converted from HTML to RTF)**
 ```php
