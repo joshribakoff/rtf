@@ -1,7 +1,7 @@
 Convert between RTF documents & HTML or plaintext.
 =========================
 
-I was tasked with the wild job of displaying data from a closed sourced microsoft product in our PHP web app, allowing it to be manipulated in a WYSIWYG editor, and written back. It turned out this product used an MSSQL database which PHP can work with. The problem then was the manipulation and conversion of RTF to HTML and back. So I created this monstrousity. It was really interesting to compare how elegant HTML is compared to RTF, given that they both do essentially the same thing.
+I was tasked with the wild job of displaying data from a closed sourced microsoft product in our PHP web app, allowing it to be manipulated in a WYSIWYG editor, and written back. It turned out this product used an MSSQL database which PHP can work with. The problem then was the manipulation and conversion of RTF to HTML and back. So I created this monstrosity using TDD. It was really interesting to compare how elegant HTML is compared to RTF, given that they both do essentially the same thing.
 
 I don't recommend using RTF for anything. Its a bad Microsoft standard. If you do, you can use this library which translates RTF to HTML & back (and of course plaintext) it supports font colors, sizes, bold, italics & underline.
 
