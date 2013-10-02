@@ -1,3 +1,11 @@
+Main Usage
+======
+```php
+$note = new JoshRibakoff_Note;
+$note->setRTF($yourRTFDocumentAsText);
+$note->formatHTML(); // returns your RTF converted to HTML as best as possible.
+```
+
 Convert between RTF documents & HTML or plaintext.
 =========================
 
@@ -43,13 +51,6 @@ Which is invalid. So this library "guesses" what the HTML version would look lik
 
 Also RTF has a "font table" where colors are indexed to an ID in the header. This library manipulates that font table header.
 
-Main Usage
-======
-```php
-$note = new JoshRibakoff_Note;
-$note->setRTF($yourRTFDocumentAsText);
-$note->formatHTML(); // returns your RTF converted to HTML as best as possible.
-```
 
 Further Examples
 ======
