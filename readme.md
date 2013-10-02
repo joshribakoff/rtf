@@ -7,7 +7,7 @@ I don't recommend using RTF for anything. Its a bad Microsoft standard. If you d
 
 Other Uses & Design Forces
 ============
-Part of HTML is nested "{" and "}", nested data doesn't work well with regex which is why I wrote a full lexer. There is a class that can match any "{" to its matching "}", called recursively it can create a multi dimensional array. You could re-use this class to create a language parsed by PHP (if you were so inclined)
+Part of RTF is nested "{" and "}", nested data doesn't work well with regex which is why I wrote a full lexer. There is a class that can match any "{" to its matching "}", called recursively it can create a multi dimensional array. You could re-use this class to create a language parsed by PHP (if you were so inclined)
 
 Short Comings
 ============
