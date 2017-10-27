@@ -2,6 +2,19 @@
 require_once 'Note.php';
 class JoshRibakoff_NoteTest extends PHPUnit_Framework_TestCase
 {
+    // function testRussian()
+    // {
+    //     $start = file_get_contents('109.rtf');
+    //     //echo $start;
+    //     $note = new JoshRibakoff_Note();
+    //     $note->setRTF($start);
+    //     $note->prependNote(array(
+    //         'text' => 'simple note2'
+    //     ));
+
+    //     //echo $note->formatRTF();
+    // }
+
     function testPrependsSimpleText()
     {
         $startNote = '\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Microsoft Sans Serif;}{\\f1\\fnil\\fcharset204 Microsoft Sans Serif;}}
