@@ -1,0 +1,14 @@
+{
+    "name": "josh/rtf",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Josh Ribakoff",
+            "email": "josh.ribakoff@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "3.7.38"
+    }
+}

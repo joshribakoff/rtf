@@ -1,5 +1,10 @@
 <?php
 require_once 'Note/AssembleRTF.php';
+require_once 'Note/BraceLexer.php';
+require_once 'Note/SectionLexer.php';
+require_once 'Note/RTFToHTML.php';
+require_once 'Note/HTMLToRTF.php';
+require_once 'Note/RTFToPlainText.php';
 class JoshRibakoff_Note
 {
     const DEFAULT_FONTSIZE = '17';

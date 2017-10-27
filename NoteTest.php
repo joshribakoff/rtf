@@ -1,4 +1,5 @@
 <?php
+require_once 'Note.php';
 class JoshRibakoff_NoteTest extends PHPUnit_Framework_TestCase
 {
     function testPrependsSimpleText()
